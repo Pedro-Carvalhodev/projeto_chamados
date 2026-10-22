@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: #1565c0;
+  color: white;
+  padding: 12px 16px;
+  margin: 0 -16px 24px;
+}
+
+.cabecalho h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cabecalho nav {
+  display: flex;
+  gap: 12px;
+  flex: 1;
+}
+
+.cabecalho a {
+  color: white;
+}
+
+.topo-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button,
+.botao-link {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.botao-excluir {
+  background-color: #c62828;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.caixa {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 16px;
+}
+
+.erro {
+  border: 2px solid #c62828;
+  color: #c62828;
+  padding: 8px;
+}
+
+.sucesso {
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
+  padding: 8px;
+}
